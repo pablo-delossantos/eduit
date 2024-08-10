@@ -1,0 +1,119 @@
+/* h1{
+    color: blueviolet;
+} */
+
+/* div{
+    color: red;
+} */
+
+/* h1, p {
+    color: brown;
+} */
+
+/* section  > p{
+    color: blue;
+} */
+
+/* #parrafo2{
+    color: rgb(214, 148, 148);
+} */
+
+/* .descripcion{
+    color: green;
+}
+
+.producto{
+    background-color: red;
+}
+
+ul li{
+    color: blue;
+} */
+
+/* .encabezado#encabezado{
+    color: blueviolet;
+}
+
+section .encabezado{
+    color: cadetblue;
+}
+
+.encabezado{
+    color: chartreuse;
+}
+
+section h1{
+    color: red;
+}
+
+h1{
+    color: blue!important;
+}
+p{
+    color: green;
+}
+ */
+
+/*  p{
+    color: #f32f21;
+
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-transform:none;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+    text-align: center;
+    font-style: normal;
+    font-style: italic;
+}
+ a{
+    text-decoration: none;
+    font-size: 2rem;
+    
+    
+ } */
+
+*{
+    box-sizing: border-box;
+}
+
+div{
+    width: 300px;
+    background-color: rgb(255, 72, 0);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding: 10px 20px 30px 40px ;
+    padding: 10px 20px 30px;
+    padding: 20px 40px;
+    border-left: 5px dotted green;
+    border-right: 5px double rgb(12, 0, 238);
+    border-top: 10px solid gray;
+    border: 5px solid black;
+    border-radius: 10px;
+    border-color: blue;
+    margin: 20px;
+    margin-left: 40px;
+    margin: 20px 30px 40px 10px;
+    margin: 10px 20px 30px;
+    margin: 20px 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+}
+p{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/*#### Selectores ####*/
+
+body {
+    background-color: rgb(127, 192, 245);
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+}
+
+/* Selector de etiqueta */
+/* h1 {
+    color: blueviolet;
+} */
+
+/* div {
+    color: red;
+} */
+
+/* Selector grupal */
+/* h1, p {
+    color: brown;
+} */
+
+/* Selecciona el hijo directo */
+/* section > p {
+    color: blue;
+} */
+
+/* Media query */
+/* @media(max-width:480px) {
+    h1 {
+        background: red;
+    }
+} */
+/* Las clases y los IDs tienen que hacer referencia al elemento */
+/* #parrafo {
+    color: rgb(141, 0, 146);
+}
+
+.descripcion{
+    color: rgb(73, 73, 73);
+} */
+
+/* ### Especificidad ### */
+
+/* Tres parámetros */
+
+/* section h1 {
+    color: #2616b4;
+}
+
+h1 {
+    color: blue;
+} */
+
+/* section.encabezado {
+    color: cadetblue;
+}
+
+.encabezado#encabezado {
+    color:blueviolet;
+} */
+
+/* ### Propiedades del texto ### */
+p {
+    color: blue;
+    background-color: bisque;
+    background: rgb(255, 238, 238);
+    font-size: 3rem;
+    font-weight: 400;
+}

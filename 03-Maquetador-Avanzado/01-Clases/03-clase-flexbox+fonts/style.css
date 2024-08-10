@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flexbox */
+/* p {
+    display: inline;
+}
+span {
+    display: block;
+}
+.parrafo {
+    display: none;
+} */
+/* .parrafo {
+    visibility: hidden;
+} */
+
+/* Flex se aplica al elemento padre */
+
+body {
+    background-color: #252525;
+}
+
+/* section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+} */
+
+/* div {
+    background: bisque;
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+} */
+
+/* ### Tipografías ### */
+/* @font-face {
+    font-family: proximanova;
+    src: url(./fonts/proximanova/ProximaNova-Regular.ttf);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Mulish", sans-serif;
+    color: #fafafa;
+}
+p {
+    font-family: "proximanova";
+    color: #fafafa;
+} */
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    /* background-image: url(./img/uxui.jpg);
+    background-repeat: no-repeat;
+    contain: La imagen se contiene a su tamaño */
+    /* cover: La imagen cubre el ancho del contenedor
+    background-size: cover ; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* background: #090979;
+
+    GRADIENTE
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    background-image: radial-gradient(circle,red, green, blue); */
+    /* background: repeating-linear-gradient(45deg,red, white, red 10px, white 10px); */
+
+    /* Box Shadow */
+    box-shadow: 10px 10px 0 #fafafa;
+    border: 1px solid #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-shadow: 2px 2px 0 #fc8f8f;
+}
